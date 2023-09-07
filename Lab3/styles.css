@@ -1,0 +1,54 @@
+body {
+    background-color: #DFF1DD; /*This makes the background color a light green */
+    font-family: 'Poppins', sans-serif; /*This changes my font to be a google font called Poppins */
+    padding-left: 5%; /*These give my website a bit of a buffer between my border */
+    padding-right: 5%;
+    text-align: center; /*This centers all of my text */
+    border: 10px solid #518450; /*This gives my website a dark green border */
+}
+
+h1 {
+    background-color: #dde9f1; /*This gives my header a background */
+    border: 3px solid #bcc7ce; /*This gives my header background a border */
+}
+
+ul {
+    list-style-position: inside; /*This keeps my bullets next to the items */
+    text-align: left; /*This aligns my text to the left side */
+    margin-left:25%; /*This moves my text over 25% away from the margins */
+}
+
+li::marker{
+    color:forestgreen; /*This makes my bullet points green */
+};
+
+a{
+    text-decoration: none; /*These remove the underline for all of my links */
+}
+
+a:link{
+    color: rgb(20, 107, 39); /*This changes my unvisited link color to dark green */
+    text-decoration:none;
+}
+
+a:visited{
+    color: rgb(45, 66, 200); /*This changes my visited link color to blue */
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(175, 33, 73); /*This changes my hover color to red */
+    text-decoration:line-through; /*This gives my hovering links a strike through */
+}
+
+img {
+    max-width: 50%; /*This resizes my image */
+    border-radius: 2%; /*This gives my image rounded edges */
+}
+
+
+footer{
+    text-align: left; /*This aligns my footer to the left */
+    font-size: .75em; /*This changes the size of my footer */
+    font-style: italic; /*This italicizes my footer */
+}
