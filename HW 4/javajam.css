@@ -1,0 +1,58 @@
+body{
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+header{
+    color: #8C3826;
+    background-color: #D2B48C;
+    text-align: center;
+}
+
+h1{
+    line-height: 200%;
+    font-family: 'Lobster', cursive;
+}
+
+h2{
+    color: #8C3826;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #D2B48C;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
+
+#wrapper{
+    width: 80%;
+    background-color: #FEFAEB;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none; /*These remove the underline for all of my links */
+}
+
+a:link{
+    color:#221811; /*This changes my unvisited link color to dark green */
+    text-decoration:none;
+}
+
+a:visited{
+    color:#8C3826; /*This changes my visited link color to blue */
+    text-decoration: none;
+}
+
+a:hover{
+    color:#D2B48C; /*This changes my hover color to red */
+    text-decoration:line-through; /*This gives my hovering links a strike through */
+}
