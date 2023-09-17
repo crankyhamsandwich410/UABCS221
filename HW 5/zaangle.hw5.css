@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    padding: 1em;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    border-bottom: solid;
+    background-color:thistle;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: cadetblue;
+    border: solid darkslateblue;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: blanchedalmond;
+}
