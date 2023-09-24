@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--This is the title of my website-->
+    <title>Personal Portfolio- Zoie Angle</title>
+    <!--Here is the link to my css doc-->
+    <link rel="stylesheet"
+    href="lab5.styles.css">
+  </head>
+  <body>
+    <header>
+      <!--This is the main heading of my website-->
+        <div class="imgAlign">
+            <img src="profilePic.jpg" alt="Profile Pic"> <!--This is a link to my main picture-->
+        </div>
+        <br>
+        <br>
+        <div class="mainhead">Zoie Angle</div> <!--This is my title-->
+        <div class="subhead">Student, Designer, Entrepreneur</div> <!--This is my subtitle-->
+        <br>
+        <br>
+    </header>
+    <!--These are my navigation links in my website-->
+    <nav>
+      <a href="#anchor">Get to know me!</a> &nbsp; &nbsp; &nbsp;
+      <a href="#anchor2">Get to know my work!</a>&nbsp; &nbsp; &nbsp;
+      <a href="#anchor3">Send me a message!</a>
+    </nav>
+    <!--These are just some page breaks-->
+    <br>
+    <br>
+    <!--This is the beginning of my "Get to know me" section-->
+    <section>
+      <p id="anchor"></p>
+      <div class="title1">
+        <p>Get to know me!</p>
+    </div>
+    <!--This is my flexbox for my personal info and projects-->
+      <div class="personalFlex">
+        <div class="personalGrid">
+          <!--The first 3 divs are the headings for my pictures-->
+            <div class="myPets">My Pets</div>
+            <div class="personalProjects">My Personal Projects</div>
+            <div class="hobbies">My Hobbies</div>
+            <!--The next 3 divs are interactive pictures that reveal a little bit about me-->
+            <div class="pets">
+                <img src="myCats.jpg" alt="My cats">
+                <div class="overlay1">
+                    <div class="text1">These are my cats! The smaller one is Ender, shes's only about 4 months old! The other one is my roommate's cat Connie. I also have a dog named Tagalong!</div>
+                </div>
+            </div>
+            <div class="projects">
+              <img src="crochet.jpg" alt="One of my projects">
+              <div class="overlay2">
+                <div class="text2">This is one of my crochet projects! I have a project showcase on my instagram linked <a href="https://www.instagram.com/cranky_crochets/">here</a>!</div>
+              </div>
+            </div>
+            <div class="hobbies">
+              <img src="hobby.jpg" alt="Me at Dragoncon">
+              <div class="overlay3">
+                <div class="text3">Some of my hobbies include crocheting, watching tv, and playing video games. I also enjoy going to conventions, such as Dragoncon!</div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!--More breaks-->
+      <br>
+      <br>
+      <!--This is the start of my "Get to know my work" section-->
+      <p id="anchor2"></p>
+      <div class="title2">
+        <p>Get to know my work!</p>
+      </div>
+      <!--This is a short list of my coding skills-->
+      <div class="skills">
+        <div class="skillTitle">Skills</div>
+        <div class="skillList">
+          <ul>
+            <li>Advanced Microsoft Office Suite Knowledge</li>
+            <li>Intermediate Level Java Knowledge</li>
+            <li>Basic Python Knowledge</li>
+        </ul>
+        </div>
+      </div>
+      <!--This is code to allow someone to download my resume from the website-->
+      <div class="resume">
+        <div class="resumeTitle">Resume</div>
+        <div class="resumeLink">Here is a link to download my <a href="Zoie-Angle-Resume-2023.pdf" download>resume</a>!</div>
+      </div>
+      <!--This part is mostly links to my other projects and professional websites I am on-->
+      <div class="proProjects">
+        <div class="proTitle">Professional Projects</div>
+        <div class="proList">
+          <ul>
+            <li>Here is a link to my <a href="https://vimeo.com/user185796848">vimeo</a> account</li>
+            <li>Here is a link to a short <a href="https://vimeo.com/777186349">documentary</a> I worked on.</li>
+            <li>Here is a link to my <a href="https://www.linkedin.com/in/zoie-angle-0496a5193/">LinkedIn</a>.</li>
+            <li>Here is a link to my <a href="https://github.com/crankyhamsandwich410/UABCS221/tree/main">GitHub</a>.</li>
+          </ul>
+        </div>
+      </div>
+      <!--Even more breaks-->
+      <br>
+      <br>
+      <!--This is the beginning of my "Send me a message" section, I copied it from the link we were given but tried to make it my own a bit!-->
+    <p id="anchor3"></p>
+      <div class="container">
+        <h1>Send me a message!</h1>
+        <form target="_blank" action="https://formsubmit.co/zangle101@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col1">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col2">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!--This is my footer with the copyright info-->
+    <footer>
+        <p>This webpage is public domain.</p>
+    </footer>
+  </body>
+</html>

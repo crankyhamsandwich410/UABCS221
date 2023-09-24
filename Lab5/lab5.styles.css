@@ -1,0 +1,190 @@
+body {
+    background-color: #DFF1DD; /*This makes the background color a light green */
+    font-family: 'Poppins', sans-serif; /*This changes my font to be a google font called Poppins */
+    padding-left: 5%; /*These give my website a bit of a buffer between my border */
+    padding-right: 5%;
+    text-align: center; /*This centers all of my text */
+    border: 10px solid #518450; /*This gives my website a dark green border */
+}
+
+header{
+    text-align: left; /*This centers my header text*/
+    padding-top: 10px; /*This gives the top of my header padding*/
+}
+
+.mainhead{
+    font-size: 500%; /*This changes the size of my main header text*/
+    padding-top: 100px; /*This gives my main header padding*/
+}
+
+.subhead{font-size: 161%;} /*This changes the size of my subheading*/
+
+img[src="profilePic.jpg"]{ /*This will make my profile pic appear to the right of the screen, as a specific size, and round out the edges*/
+    float: right;
+    max-width:35%;
+    border-radius: 2%;
+}
+
+nav{
+    margin-top: 20%;
+    font-size: 25px;
+}
+
+.title1{font-size: 300%;}
+
+.personalFlex{ /*This will format my content to be in a flex box and center the content*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.personalGrid{ /*This will create a grid inside my flex box that will be a 2 by 3 grid*/
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 300px 300px 300px;
+    align-items: center;
+    justify-items: center;
+    background-color: #957656;
+    padding: 20px;
+}
+
+.pets{position: relative;}
+
+img[scr="myCats.jpg"]{display: block;}
+
+.overlay1{ /*This is the text overlay that will appear when hovering over the picture*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 97%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#DFF1DD;
+}
+
+.pets:hover .overlay1{opacity: 1;}
+
+.text1{
+    font-size: 27px;
+    text-align: center;
+    padding: 12px;
+}
+
+.projects{position: relative;}
+
+img[scr="crochet.jpg"]{
+    display: block;
+    width: 100%;
+}
+
+.overlay2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#DFF1DD;
+}
+
+.projects:hover .overlay2{opacity: 1;}
+
+.text2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.hobbies{position: relative;}
+
+img[scr="hobby.jpg"]{
+    display: block;
+    width: 100%;
+}
+
+.overlay3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    height: 97%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#DFF1DD;
+}
+
+.hobbies:hover .overlay3{opacity: 1;}
+
+.text3{
+    font-size: 27px;
+    text-align: center;
+    padding: 10px;
+}
+
+.title2{font-size: 300%;}
+
+.skills{text-align: left;}
+
+.skillTitle{font-size: 25px;}
+
+ul {list-style-type: none;} /*This will remove the bullets in the list*/
+
+.skillList{
+    text-align: left;
+    margin-left: -40px;
+}
+
+.resumeTitle{font-size: 25px;}
+
+.proProjects{text-align: right;}
+
+.proTitle{font-size: 25px;}
+
+h1 { /*This centers my form and makes its margins important*/
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+
+.form-control{ /*This is making my form match my theme better*/
+    padding: 10px;
+    border: 3px solid #518450;
+    margin: 3px;
+    border-radius: 7px;
+    background-color: #e7f1e6;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{text-decoration: none;}/*These remove the underline for all of my links */
+
+a:link{
+    color:#518450; /*This changes my unvisited link color to dark green */
+    text-decoration:none;
+}
+
+a:visited{
+    color:darkslateblue; /*This changes my visited link color to blue */
+    text-decoration: none;
+}
+
+a:hover{
+    color:#835084; /*This changes my hover color to red */
+    text-decoration:line-through; /*This gives my hovering links a strike through */
+}
+
+img {max-width: 100%;} /*This resizes my image */
+
+
+footer{
+    text-align: left; /*This aligns my footer to the left */
+    font-size: .75em; /*This changes the size of my footer */
+    font-style: italic; /*This italicizes my footer */
+}
