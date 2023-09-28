@@ -273,7 +273,6 @@ header{
 .gridItem::after{
     content:url("ghostGlass.png");
     position:absolute;
-    /* transform:translate(-165%, -40%); */
     opacity: 0;
     scale: 30%;
 }
