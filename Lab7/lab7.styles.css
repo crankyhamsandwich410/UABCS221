@@ -1,0 +1,162 @@
+body {
+    background-color: #DFF1DD; /*This makes the background color a light green */
+    font-family: 'Poppins', sans-serif; /*This changes my font to be a google font called Poppins */
+    padding-left: 5%; /*These give my website a bit of a buffer between my border */
+    padding-right: 5%;
+    text-align: center; /*This centers all of my text */
+    border: 10px solid #518450; /*This gives my website a dark green border */
+}
+
+header{
+    text-align: left; /*This centers my header text*/
+    padding-top: 10px; /*This gives the top of my header padding*/
+}
+
+.mainhead{
+    font-size: 500%; /*This changes the size of my main header text*/
+    padding-top: 50px; /*This gives my main header padding*/
+}
+
+.subhead{font-size: 161%;} /*This changes the size of my subheading*/
+
+img[src="profilePic.jpg"]{ /*This will make my profile pic appear to the right of the screen, as a specific size, and round out the edges*/
+    float: right;
+    max-width:35%;
+    border-radius: 2%;
+}
+
+nav{
+    margin-top: 20%;
+    font-size: 25px;
+}
+
+.title1{font-size: 300%;}
+
+.personalGrid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    background-color: #957656;
+    padding: 20px;
+}
+
+.gridItem{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gridItem:hover{
+    scale: 1.05;
+    transition: .5s;
+}
+
+.pets{background-image: url("myCats.jpg");}
+
+.pets:hover::before{ /*This is the text overlay that will appear when hovering over the picture*/
+    content: "These are my cats Ender and Connie! Ender is a 4 month old kitten and Connie is my roommate's 7 year old cat!";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color:#DFF1DD;
+}
+
+.projects{background-image: url("crochet.jpg");}
+
+.projects:hover::before{ /*This is the text overlay that will appear when hovering over the picture*/
+    content: "This is one of my crochet projects! I have a project showcase on my instagram!";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color:#DFF1DD;
+}
+
+.hobby{background-image: url("hobby.jpg");}
+
+.hobby:hover::before{ /*This is the text overlay that will appear when hovering over the picture*/
+    content: "Some of my hobbies include crocheting, watching tv, and playing video games. I also enjoy going to conventions, such as Dragoncon!";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color:#DFF1DD;
+}
+
+.title2{font-size: 300%;}
+
+.skills{text-align: left;}
+
+.skillTitle{font-size: 25px;}
+
+ul {list-style-type: none;} /*This will remove the bullets in the list*/
+
+.skillList{
+    text-align: left;
+    margin-left: -40px;
+}
+
+.resumeTitle{font-size: 25px;}
+
+.proProjects{text-align: right;}
+
+.proTitle{font-size: 25px;}
+
+h1 { /*This centers my form and makes its margins important*/
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+
+.form-control{ /*This is making my form match my theme better*/
+    padding: 10px;
+    border: 3px solid #518450;
+    margin: 3px;
+    border-radius: 7px;
+    background-color: #e7f1e6;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{text-decoration: none;}/*These remove the underline for all of my links */
+
+a:link{
+    color:#518450; /*This changes my unvisited link color to dark green */
+    text-decoration:none;
+}
+
+a:visited{
+    color:darkslateblue; /*This changes my visited link color to blue */
+    text-decoration: none;
+}
+
+a:hover{
+    color:#835084; /*This changes my hover color to red */
+    text-decoration:line-through; /*This gives my hovering links a strike through */
+}
+
+img {max-width: 100%;} /*This resizes my image */
+
+
+footer{
+    text-align: left; /*This aligns my footer to the left */
+    font-size: .75em; /*This changes the size of my footer */
+    font-style: italic; /*This italicizes my footer */
+}
