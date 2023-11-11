@@ -1,5 +1,5 @@
 let choice;
-// myFunction();
+
 window.onload=function(){
     const element1 = document.getElementById("rock")
     element1.addEventListener("click", rockClick);
@@ -55,5 +55,3 @@ function myFunction(){
     document.getElementById("text").innerText = "You chose " + choice + " and the computer chose " + ranChoice + ". " + response;
     
 }
-
-
