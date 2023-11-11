@@ -4,13 +4,15 @@ body {
     text-align: center;
     font-family: 'Nunito';
     background-color: #E4F5F2;
+    padding-top: 10%;
 }
 
 .button{
-    border-radius: 4px;
-    font-size: 20px;
-    width: 20%;
+    border-radius: 10px;
+    font-size: x-large;
     transition-duration: .3s;
+    height: 10vh;
+    width: 15vw;
 }
 
 #rock{
