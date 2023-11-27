@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans', Arial, sans-serif;
     margin: 20px;
 }
 
@@ -10,12 +11,45 @@ body {
 
 input, button {
     margin-bottom: 10px;
+    font-size: large;
+    background-color:#E7AF48;
+    border-radius: .5em;
+}
+
+h1{
+    text-align: center;
+}
+
+#searchDiv{
+    background-color: #8EEACA;
+    border-radius: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#searchInput{
+    border-radius: .5em;
+    background-color: whitesmoke;
+    font-size: large;
 }
 
 #searchResults {
     margin-top: 20px;
+    padding: 2em;
+    background-color: #80E748;
+    border-radius: 2em;
 }
 
 #bookshelf {
     margin-top: 40px;
+    background-color: #E7AF48;
+    border-radius: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#bookshelfList{
+    font-size: large;
 }
