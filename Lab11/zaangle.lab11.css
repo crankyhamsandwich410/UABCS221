@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+#bookshelf {
+    margin-top: 40px;
+}
