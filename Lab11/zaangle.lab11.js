@@ -6,7 +6,7 @@ const bookshelfList = document.getElementById('bookshelfList');
 function searchBooks() {
     const searchTerm = searchInput.value;
 
-    // Use Google Books API to search for books (without an API key)
+    // This will use Google API to search for books
     const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}`;
 
     fetch(apiUrl)
@@ -15,6 +15,7 @@ function searchBooks() {
         .catch(error => console.error('Error fetching data:', error));
 }
 
+// This function will display the resulting books
 function displaySearchResults(books) {
     searchResults.innerHTML = '';
 
@@ -22,7 +23,7 @@ function displaySearchResults(books) {
         searchResults.innerHTML = 'No results found.';
         return;
     }
-
+// This will return all of the information on the searched book.
     books.forEach(book => {
         const bookCard = document.createElement('div');
         bookCard.classList.add('book-card');
@@ -38,8 +39,8 @@ function displaySearchResults(books) {
     });
 }
 
+// This will get the book results from Google API
 function viewBookDetails(bookId) {
-    // Use Google Books API to get details for a specific book (without an API key)
     const apiUrl = `https://www.googleapis.com/books/v1/volumes/${bookId}`;
 
     fetch(apiUrl)
@@ -55,6 +56,7 @@ function viewBookDetails(bookId) {
         .catch(error => console.error('Error fetching book details:', error));
 }
 
+// This function will add the book to the bookshelf.
 function addToBookshelf(bookId, title) {
     const listItem = document.createElement('li');
     listItem.textContent = title;
